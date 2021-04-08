@@ -23,7 +23,7 @@ Array Array::operator +(Array obj2){
 Array Array::operator -(Array obj2){
     Array temp;
     for (int i=0; i <10; i++) 
-        temp.nums[i] = nums[i] + obj2.nums[i];
+        temp.nums[i] = nums[i] - obj2.nums[i];
     return temp;
 }
 
